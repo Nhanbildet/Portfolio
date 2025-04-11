@@ -9,4 +9,4 @@ Rigoureuse, curieuse et dotée d’un esprit analytique, je suis capable d’ide
 Je vous remercie d’avoir pris le temps de consulter mon profil GitHub.
 Au plaisir d’échanger avec vous !
 
-Nhan Bildet
+Nhan BILDET
