@@ -1,0 +1,26 @@
+WITH mostOrdered AS(
+        SELECT 
+            productName AS Product,
+            SUM(quantityOrdered) AS TotalOrdered
+        FROM
+            products AS p
+        JOIN    
+            orderdetails AS od
+                ON p.productCode = od.productCode
+        GROUP BY    
+            Product
+        ORDER BY
+            TotalOrdered DESC
+        LIMIT 5)
+-- 3. je les affiche avec leur stock
+SELECT 
+    Product,
+    TotalOrdered,
+    p.quantityInStock
+FROM
+    mostOrdered
+JOIN
+    products AS p
+        ON mostOrdered.Product = p.productName;
+
+        
