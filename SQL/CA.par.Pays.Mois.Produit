@@ -1,0 +1,39 @@
+  WITH Ca_View AS (
+    SELECT 
+        YEAR(orders.orderDate) AS YearOrder, 
+        MONTHNAME(orders.orderDate) AS MonthOrder,
+        orders.customerNumber,
+        orderdetails.priceEach * orderdetails.quantityOrdered AS CA, 
+        customers.country AS Country, 
+        orderdetails.productCode,
+        orders.orderDate
+    FROM 
+        orders 
+    JOIN 
+        orderdetails ON orders.orderNumber = orderdetails.orderNumber
+    JOIN 
+        customers ON orders.customerNumber = customers.customerNumber
+    WHERE 
+        orders.status = "Shipped"
+)
+SELECT 
+    SUM(CA) AS TotalCA, 
+    Ca_View.productCode, 
+    products.productLine, 
+    products.productName,  
+    Ca_View.orderDate,
+    country
+FROM 
+    Ca_View
+JOIN 
+    products ON products.productCode = Ca_View.productCode
+GROUP BY 
+    Ca_View.orderDate,
+    Country, 
+    Ca_View.productCode, 
+    products.productLine, 
+    products.productName
+ORDER BY 
+    YearOrder DESC, 
+    MonthOrder ASC, 
+    Country;
