@@ -12,7 +12,7 @@ WITH mostOrdered AS(
         ORDER BY
             TotalOrdered DESC
         LIMIT 5)
--- 3. je les affiche avec leur stock
+--> je les affiche avec leur stock
 SELECT 
     Product,
     TotalOrdered,
