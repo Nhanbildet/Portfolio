@@ -1,0 +1,29 @@
+# Analyse de l'investissement Airbnb à Bordeaux
+
+## Contexte
+- Un investisseur potentiel envisage d’investir dans des biens Airbnb à Bordeaux.
+- Objectif de revenu annuel : environ 30 000 €.
+- Recommandation : investissement à rendement attractif (sur la base des données d’une année).
+
+## Objectifs
+- Identifier les quartiers les plus rentables à Bordeaux pour l’investissement.
+- Déterminer les types de biens susceptibles de générer le rendement attendu.
+- Prendre en compte les aspects opérationnels tels que :
+  - Gestion des propriétés
+  - Ameublement
+  - Fonctionnement quotidien
+
+## Méthodologie
+- Collecte des données Airbnb sur 1 an.
+- Analyse des revenus par quartier et type de propriété.
+- Évaluation des KPI : prix moyen, taux d’occupation, revenus estimés.
+
+## Données utilisées
+- Listings Airbnb à Bordeaux.
+- Informations sur les types de biens, nombre de chambres, capacité d’accueil.
+- Données sur la gestion et l’ameublement des propriétés.
+
+## Résultats attendus
+- Classement des quartiers par rentabilité.
+- Identification des types de biens avec le meilleur rendement.
+- Recommandations opérationnelles pour maximiser les revenus.
