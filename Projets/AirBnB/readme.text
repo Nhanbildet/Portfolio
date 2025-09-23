@@ -1,4 +1,4 @@
-# Analyse de l'investissement Airbnb à Bordeaux
+Analyse de l'investissement Airbnb à Bordeaux
 
 ## Contexte
 - Un investisseur potentiel envisage d’investir dans des biens Airbnb à Bordeaux.
@@ -21,9 +21,7 @@
 - Données sur la gestion et l’ameublement des propriétés.
 
 ## Project Phases
-- Classement des quartiers par rentabilité.
-- Identification des types de biens avec le meilleur rendement.
-- Recommandations opérationnelles pour maximiser les revenus.
+
 * Phase 1 – Identification des KPI
 Identifier les indicateurs clés de performance liés à :
 - le type de propriété,
@@ -40,8 +38,8 @@ Examiner les facteurs spécifiques à chaque bien :
 * Phase 3 – Agrégation et prévisions
 Combiner les résultats obtenus et générer des projections pour orienter les décisions d’investissement.
 
-##Current Status:  KPI Identification 
-1. Définir les KPI principaux///
+##Current Status: Phase  -   KPI Identification 
+1. Définir les KPI principaux
 - Indicateurs de tarification des locations et revenus annuels attendus.
 - Classification des niveaux de profit.
 - Durée minimale de location (journalière et mensuelle).
@@ -57,5 +55,6 @@ Un modèle permettant d’évaluer et de comparer les opportunités d’investis
 - Type de bien
 - Revenus attendus
 - Format de location (court terme, long terme)
+
 
 
