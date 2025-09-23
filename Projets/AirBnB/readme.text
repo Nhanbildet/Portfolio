@@ -6,12 +6,9 @@
 - Recommandation : investissement à rendement attractif (sur la base des données d’une année).
 
 ## Objectifs
-- Identifier les quartiers les plus rentables à Bordeaux pour l’investissement.
-- Déterminer les types de biens susceptibles de générer le rendement attendu.
-- Prendre en compte les aspects opérationnels tels que :
-  - Gestion des propriétés
-  - Ameublement
-  - Fonctionnement quotidien
+- Identifier les quartiers les plus rentables à Bordeaux pour l’investissement,
+- Déterminer les types de biens susceptibles de générer le rendement attendu,
+- Prendre en compte les aspects opérationnels tels que la gestion des propriétés, l’ameublement et le fonctionnement quotidien
 
 ## Méthodologie
 - Collecte des données Airbnb sur 1 an.
@@ -23,7 +20,42 @@
 - Informations sur les types de biens, nombre de chambres, capacité d’accueil.
 - Données sur la gestion et l’ameublement des propriétés.
 
-## Résultats attendus
+## Project Phases
 - Classement des quartiers par rentabilité.
 - Identification des types de biens avec le meilleur rendement.
 - Recommandations opérationnelles pour maximiser les revenus.
+* Phase 1 – Identification des KPI
+Identifier les indicateurs clés de performance liés à :
+- le type de propriété,
+- le modèle de location,
+- la tarification,
+- les revenus potentiels.
+
+* Phase 2 – Analyse détaillée des propriétés
+Examiner les facteurs spécifiques à chaque bien :
+- Ameublement et équipements,
+- Exigences opérationnelles,
+- considérations de gestion.
+
+* Phase 3 – Agrégation et prévisions
+Combiner les résultats obtenus et générer des projections pour orienter les décisions d’investissement.
+
+##Current Status:  KPI Identification 
+1. Définir les KPI principaux///
+- Indicateurs de tarification des locations et revenus annuels attendus.
+- Classification des niveaux de profit.
+- Durée minimale de location (journalière et mensuelle).
+- Analyse du taux d’occupation.
+2. Déterminer la taille et la structure du marché
+- Revenus totaux du marché.
+- Nombre d’annonces sur le marché.
+- Nombre d’hôtes actifs.
+- Répartition des types de biens dans les différents quartiers.
+3. Construire le modèle d’évaluation
+Un modèle permettant d’évaluer et de comparer les opportunités d’investissement selon :
+- Emplacement (quartiers)
+- Type de bien
+- Revenus attendus
+- Format de location (court terme, long terme)
+
+
