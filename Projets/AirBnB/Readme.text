@@ -38,7 +38,7 @@ Examiner les facteurs spécifiques à chaque bien :
 * Phase 3 – Agrégation et prévisions
 Combiner les résultats obtenus et générer des projections pour orienter les décisions d’investissement.
 
-##Current Status: Phase  -   KPI Identification 
+##Current Status: Phase 1  -   KPI Identification 
 1. Définir les KPI principaux
 - Indicateurs de tarification des locations et revenus annuels attendus.
 - Classification des niveaux de profit.
@@ -55,6 +55,7 @@ Un modèle permettant d’évaluer et de comparer les opportunités d’investis
 - Type de bien
 - Revenus attendus
 - Format de location (court terme, long terme)
+
 
 
 
