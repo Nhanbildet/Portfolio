@@ -44,7 +44,7 @@ Dataset source references are provided inside the project.
 📎 Report & Dashboard
 
 Full project report (PDF) and Power BI dashboard available here:
-[Add GitHub link to files]
+[[Add GitHub link to files](https://github.com/Nhanbildet/Portfolio/blob/main/Projets/Football_Betting_Analyst/Football_betting.pdf)]
 
 👩‍💻 Author
 
