@@ -2,6 +2,7 @@ Sports Betting Analytics – Football Odds Analysis (2008–2016)
 
 This project explores the performance of major bookmakers (Bet365 & William Hill) using historical football odds and match data from European leagues (2008–2016).
 The goal is to understand how bookmakers predict matches, measure their accuracy and margins, identify the most unpredictable leagues, and evaluate whether a simple long-term betting strategy can become profitable.
+
 🎯 Project Objectives
 
 Compare bookmaker accuracy, upset rate and margin (Bet365 vs William Hill)
@@ -13,6 +14,7 @@ Analyse the long-term profitability of selected teams at home
 Test a simple strategy: betting 10€ on the home team using Bet365 odds
 
 Build a complete data pipeline: Python → SQL → Power BI → simulation
+
 🧠 Key Insights
 
 Bet365 and William Hill have similar prediction accuracy, but William Hill applies a higher margin, reducing expected returns for players.
