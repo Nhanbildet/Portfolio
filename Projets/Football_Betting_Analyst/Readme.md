@@ -13,8 +13,6 @@ Analyse the long-term profitability of selected teams at home
 
 Test a simple strategy: betting 10€ on the home team using Bet365 odds
 
-Build a complete data pipeline: Python → SQL → Power BI → simulation
-
 🧠 Key Insights
 
 Bet365 and William Hill have similar prediction accuracy, but William Hill applies a higher margin, reducing expected returns for players.
