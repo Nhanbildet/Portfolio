@@ -26,22 +26,10 @@ Several teams display positive long-term profitability, especially when they com
 
 A simple home-betting strategy, when supported by data, can outperform random betting and produce positive returns.
 
-This approach is closer to quantitative investing than gambling: probability modelling, margin analysis and long-run simulation.
-
 🛠️ Methodology
 Data Processing
 
-Python (Pandas, NumPy) for data cleaning, merging and standardisation
-
-SQL for transformations and filtering
-
-Feature engineering: upset rate, bookmaker margin, home/away win rates
-
-Long-term simulation (profit accumulation per team)
-
-Visualisation
-
-Power BI for dashboarding
+Python (Pandas, NumPy) for data cleaning, merging and standardisation.SQL for transformations and filtering.Visualisation: Power BI for dashboarding
 
 Multi-page report: bookmakers comparison, league profile, team profile and profitability simulation
 
