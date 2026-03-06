@@ -1,140 +1,70 @@
-# 🏡 Airbnb Investment Analysis – Data Pipeline & Analytics (Microsoft Fabric)
+# Analyse du marché Airbnb avec Microsoft Fabric
 
-## 📊 Project Overview
+## Présentation
 
-This project analyzes the **Airbnb short-term rental market** to identify the most profitable investment opportunities in a highly competitive environment.
+Ce projet analyse le marché de la location courte durée sur **Airbnb** afin d’identifier les opportunités d’investissement les plus rentables.
 
-The objective is to determine which combinations of **location, property type, price level, and capacity** can generate a target revenue of:
+L’objectif est de déterminer quelles combinaisons de **localisation, type de logement, capacité et prix** permettent d’atteindre un revenu cible de **3 000 € par mois (36 000 € par an)**.
 
-💰 **€3,000 per month (€36,000 per year)**
+L’analyse se concentre sur trois marchés :
 
-The analysis focuses on three French markets:
+* Bordeaux
+* Lyon
+* Pays Basque
 
-* 📍 **Bordeaux**
-* 📍 **Lyon**
-* 📍 **Pays Basque**
-
-Using a dataset of **26,000 Airbnb listings**, the project explores host profiles, property characteristics, pricing structures, and occupancy patterns to identify the most attractive investment segments.
+Le dataset contient environ **26 000 annonces Airbnb**.
 
 ---
 
-# 🏗️ Data Architecture
+## Architecture des données
 
-The project implements an **end-to-end data pipeline in Microsoft Fabric** using a **Medallion Architecture (Bronze – Silver – Gold)**.
+Un **pipeline de données end-to-end** a été mis en place dans **Microsoft Fabric** selon une architecture **Medallion (Bronze, Silver, Gold)**.
 
-```
+Flux de données :
+
 Airbnb Dataset
-      ↓
-Fabric Lakehouse (Bronze Layer)
-      ↓
-PySpark / SQL (Silver Layer)
-      ↓
-Dataflows Gen2 (Data Cleaning)
-      ↓
-Star Schema Model (Gold Layer)
-      ↓
-Power BI Dashboards (Analytics)
-```
-
-### Pipeline Steps
-
-1️⃣ **Data Source**
-Airbnb dataset containing listings, hosts, pricing, and reviews.
-
-2️⃣ **Bronze Layer – Fabric Lakehouse**
-Raw data storage and centralized ingestion of source datasets.
-
-3️⃣ **Silver Layer – PySpark / SQL**
-Data transformation, filtering, and structuring of relevant variables.
-
-4️⃣ **Silver Layer – Dataflows Gen2**
-Data cleaning and preparation for analytical usage.
-
-5️⃣ **Gold Layer – Star Schema Model**
-Creation of a business-ready analytical model with **fact and dimension tables**.
-
-6️⃣ **Analytics Layer – Power BI**
-Interactive dashboards used to analyze market performance and investment opportunities.
+→ Fabric Lakehouse (Bronze – stockage des données brutes)
+→ PySpark / SQL (Silver – transformation des données)
+→ Dataflows Gen2 (préparation et nettoyage)
+→ Modèle en **Star Schema** (Gold – modèle analytique)
+→ **Power BI** (visualisation et analyse)
 
 ---
 
-# 📈 Key Analysis
+## Analyses réalisées
 
-The dashboards explore several dimensions of the Airbnb market:
+Les dashboards permettent d’analyser :
 
-* 👤 Host profiles and distribution
-* 🏠 Property types and accommodation capacity
-* 💲 Pricing levels across cities and neighborhoods
-* 📊 Occupancy rate patterns
-* 🧭 Market concentration by location
-* 💼 Investment profitability indicators
-
-### Key KPIs
-
-* 💰 Average price
-* 📉 Occupancy rate
-* 📊 Estimated monthly revenue
-* ⭐ Host activity and rating levels
+* les profils d’hôtes
+* les types de logements
+* les prix moyens et les taux d’occupation
+* la concurrence par ville et quartier
+* les indicateurs de rentabilité pour l’investissement
 
 ---
 
-# 📊 Dashboard Insights
+## Technologies utilisées
 
-The analysis highlights several important trends:
-
-* Most listings are managed by **local hosts with small portfolios**
-* **Entire homes and private rooms** dominate the supply
-* **Medium-capacity properties (2-4 people)** represent the core market segment
-* Market maturity creates strong competition, making **location, pricing, and service quality key performance drivers**
-
----
-
-# ⚙️ Technology Stack
-
-This project combines **data engineering, data modeling, and business analytics** using modern cloud tools.
-
-| Category         | Tools            |
-| ---------------- | ---------------- |
-| Data Platform    | Microsoft Fabric |
-| Storage          | Fabric Lakehouse |
-| Data Processing  | PySpark          |
-| Query Engine     | SQL              |
-| Data Preparation | Dataflows Gen2   |
-| Data Modeling    | Star Schema      |
-| Visualization    | Power BI         |
+* Microsoft Fabric
+* Lakehouse
+* PySpark
+* SQL
+* Dataflows Gen2
+* Modélisation en **Star Schema**
+* Power BI
 
 ---
 
-# 🧠 Skills Demonstrated
+## Auteur
 
-This project demonstrates the ability to:
-
-* Build an **end-to-end data pipeline**
-* Implement **Medallion architecture**
-* Process and transform data using **PySpark and SQL**
-* Prepare analytical datasets using **Dataflows Gen2**
-* Design a **Star Schema data model**
-* Develop **interactive dashboards with Power BI**
-* Translate data into actionable business insights
-
-🎯 Project Goal
-
-The goal of this project is to demonstrate how a modern data platform and analytics workflow can transform raw datasets into actionable insights for investment decision-making.
-
-It illustrates the complete lifecycle of a data project:
-
-Data ingestion → Data transformation → Data modeling → Business analytics
-
-👩‍💻 Author
-
-Nhan Bildet
-
+**Nhan Bildet**
 Data Analyst | Analytics Engineer
 📍 Based in Bordeaux, France
 
-📧 nhan.bildet@gmail.com
+📧 nhan.bildet@gmail.com | 06.18.36.75.66
 
  
+
 
 
 
