@@ -1,60 +1,124 @@
-Analyse de l'investissement Airbnb à Bordeaux
+# 🏡 Airbnb Investment Analysis – Data Pipeline & Analytics (Microsoft Fabric)
 
-## Contexte
-- Un investisseur potentiel envisage d’investir dans des biens Airbnb à Bordeaux.
-- Objectif de revenu annuel : environ 30 000 €.
-- Recommandation : investissement à rendement attractif (sur la base des données d’une année).
+## 📊 Project Overview
 
-## Objectifs
-- Identifier les quartiers les plus rentables à Bordeaux pour l’investissement,
-- Déterminer les types de biens susceptibles de générer le rendement attendu,
-- Prendre en compte les aspects opérationnels tels que la gestion des propriétés, l’ameublement et le fonctionnement quotidien
+This project analyzes the **Airbnb short-term rental market** to identify the most profitable investment opportunities in a highly competitive environment.
 
-## Méthodologie
-- Collecte des données Airbnb sur 1 an.
-- Analyse des revenus par quartier et type de propriété.
-- Évaluation des KPI : prix moyen, taux d’occupation, revenus estimés.
+The objective is to determine which combinations of **location, property type, price level, and capacity** can generate a target revenue of:
 
-## Données utilisées
-- Listings Airbnb à Bordeaux.
-- Informations sur les types de biens, nombre de chambres, capacité d’accueil.
-- Données sur la gestion et l’ameublement des propriétés.
+💰 **€3,000 per month (€36,000 per year)**
 
-## Project Phases
+The analysis focuses on three French markets:
 
-* Phase 1 – Identification des KPI
-Identifier les indicateurs clés de performance liés à :
-- le type de propriété,
-- le modèle de location,
-- la tarification,
-- les revenus potentiels.
+* 📍 **Bordeaux**
+* 📍 **Lyon**
+* 📍 **Pays Basque**
 
-* Phase 2 – Analyse détaillée des propriétés
-Examiner les facteurs spécifiques à chaque bien :
-- Ameublement et équipements,
-- Exigences opérationnelles,
-- considérations de gestion.
+Using a dataset of **26,000 Airbnb listings**, the project explores host profiles, property characteristics, pricing structures, and occupancy patterns to identify the most attractive investment segments.
 
-* Phase 3 – Agrégation et prévisions
-Combiner les résultats obtenus et générer des projections pour orienter les décisions d’investissement.
+---
 
-##Current Status: Phase 1  -   KPI Identification 
-1. Définir les KPI principaux
-- Indicateurs de tarification des locations et revenus annuels attendus.
-- Classification des niveaux de profit.
-- Durée minimale de location (journalière et mensuelle).
-- Analyse du taux d’occupation.
-2. Déterminer la taille et la structure du marché
-- Revenus totaux du marché.
-- Nombre d’annonces sur le marché.
-- Nombre d’hôtes actifs.
-- Répartition des types de biens dans les différents quartiers.
-3. Construire le modèle d’évaluation
-Un modèle permettant d’évaluer et de comparer les opportunités d’investissement selon :
-- Emplacement (quartiers)
-- Type de bien
-- Revenus attendus
-- Format de location (court terme, long terme)
+# 🏗️ Data Architecture
+
+The project implements an **end-to-end data pipeline in Microsoft Fabric** using a **Medallion Architecture (Bronze – Silver – Gold)**.
+
+```
+Airbnb Dataset
+      ↓
+Fabric Lakehouse (Bronze Layer)
+      ↓
+PySpark / SQL (Silver Layer)
+      ↓
+Dataflows Gen2 (Data Cleaning)
+      ↓
+Star Schema Model (Gold Layer)
+      ↓
+Power BI Dashboards (Analytics)
+```
+
+### Pipeline Steps
+
+1️⃣ **Data Source**
+Airbnb dataset containing listings, hosts, pricing, and reviews.
+
+2️⃣ **Bronze Layer – Fabric Lakehouse**
+Raw data storage and centralized ingestion of source datasets.
+
+3️⃣ **Silver Layer – PySpark / SQL**
+Data transformation, filtering, and structuring of relevant variables.
+
+4️⃣ **Silver Layer – Dataflows Gen2**
+Data cleaning and preparation for analytical usage.
+
+5️⃣ **Gold Layer – Star Schema Model**
+Creation of a business-ready analytical model with **fact and dimension tables**.
+
+6️⃣ **Analytics Layer – Power BI**
+Interactive dashboards used to analyze market performance and investment opportunities.
+
+---
+
+# 📈 Key Analysis
+
+The dashboards explore several dimensions of the Airbnb market:
+
+* 👤 Host profiles and distribution
+* 🏠 Property types and accommodation capacity
+* 💲 Pricing levels across cities and neighborhoods
+* 📊 Occupancy rate patterns
+* 🧭 Market concentration by location
+* 💼 Investment profitability indicators
+
+### Key KPIs
+
+* 💰 Average price
+* 📉 Occupancy rate
+* 📊 Estimated monthly revenue
+* ⭐ Host activity and rating levels
+
+---
+
+# 📊 Dashboard Insights
+
+The analysis highlights several important trends:
+
+* Most listings are managed by **local hosts with small portfolios**
+* **Entire homes and private rooms** dominate the supply
+* **Medium-capacity properties (2-4 people)** represent the core market segment
+* Market maturity creates strong competition, making **location, pricing, and service quality key performance drivers**
+
+---
+
+# ⚙️ Technology Stack
+
+This project combines **data engineering, data modeling, and business analytics** using modern cloud tools.
+
+| Category         | Tools            |
+| ---------------- | ---------------- |
+| Data Platform    | Microsoft Fabric |
+| Storage          | Fabric Lakehouse |
+| Data Processing  | PySpark          |
+| Query Engine     | SQL              |
+| Data Preparation | Dataflows Gen2   |
+| Data Modeling    | Star Schema      |
+| Visualization    | Power BI         |
+
+---
+
+# 🧠 Skills Demonstrated
+
+This project demonstrates the ability to:
+
+* Build an **end-to-end data pipeline**
+* Implement **Medallion architecture**
+* Process and transform data using **PySpark and SQL**
+* Prepare analytical datasets using **Dataflows Gen2**
+* Design a **Star Schema data model**
+* Develop **interactive dashboards with Power BI**
+* Translate data i
+
+ 
+
 
 
 
