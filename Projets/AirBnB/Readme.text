@@ -115,9 +115,27 @@ This project demonstrates the ability to:
 * Prepare analytical datasets using **Dataflows Gen2**
 * Design a **Star Schema data model**
 * Develop **interactive dashboards with Power BI**
-* Translate data i
+* Translate data into actionable business insights
+
+🎯 Project Goal
+
+The goal of this project is to demonstrate how a modern data platform and analytics workflow can transform raw datasets into actionable insights for investment decision-making.
+
+It illustrates the complete lifecycle of a data project:
+
+Data ingestion → Data transformation → Data modeling → Business analytics
+
+👩‍💻 Author
+
+Nhan Bildet
+
+Data Analyst | Analytics Engineer
+📍 Based in Bordeaux, France
+
+📧 nhan.bildet@gmail.com
 
  
+
 
 
 
