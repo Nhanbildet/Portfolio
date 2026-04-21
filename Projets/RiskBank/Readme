@@ -18,6 +18,7 @@ Le projet suit une architecture de type Medallion :
     Silver (Transformation): Nettoyage et transformation des données avec Dataflows Gen2
     Gold (Serving): Modélisation dans le Data Warehouse (schéma en étoile)
     Visualisation: Dashboard interactif dans Power BI
+
 📊 Principaux insights
     Le pays n’est pas un facteur déterminant du risque
     Les prêts Conso dettes et Médical sont les plus risqués
@@ -44,6 +45,7 @@ Le projet suit une architecture de type Medallion :
     Transformation des données avec Dataflows Gen2
     Analyse de données et data storytelling
     Traduction des insights en recommandations métier
+
 👩‍💻 Auteur
 
 Nhan Bildet
