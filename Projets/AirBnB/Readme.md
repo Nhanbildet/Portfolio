@@ -1,4 +1,4 @@
-* Analyse du marché Airbnb avec Microsoft Fabric
+## Analyse du marché Airbnb avec Microsoft Fabric
 
 Ce projet analyse le marché de la location courte durée sur **Airbnb** afin d’identifier les opportunités d’investissement les plus rentables.
 
@@ -24,3 +24,30 @@ Airbnb Dataset
 → Dataflows Gen2 (préparation et nettoyage)
 → Modèle en **Star Schema** (Gold – modèle analytique)
 → **Power BI** (visualisation et analyse)
+## Analyses réalisées
+
+Les dashboards permettent d’analyser :
+
+* les profils d’hôtes
+* les types de logements
+* les prix moyens et les taux d’occupation
+* la concurrence par ville et quartier
+* les indicateurs de rentabilité pour l’investissement
+## Technologies utilisées
+* Microsoft Fabric
+* Lakehouse
+* PySpark
+* SQL
+* Dataflows Gen2
+* Modélisation en **Star Schema**
+* Power BI
+
+---
+
+## Auteur
+
+**Nhan Bildet**
+Data Analyst | Analytics Engineer
+📍 Based in Bordeaux, France
+
+📧 nhan.bildet@gmail.com | 06.18.36.75.66
