@@ -3,8 +3,11 @@
 Le dataset contient 33 000 prêts provenant du Royaume-Uni, du Canada et des États-Unis, avec des montants allant jusqu’à 35 000 USD.
 
 🎯 Problématique métier: Dans un contexte bancaire, la maîtrise du risque de défaut est essentielle pour garantir la rentabilité et la stabilité du portefeuille.Les principales questions :
-    -Le pays influence-t-il le risque de défaut ?
+
+    - Le pays influence-t-il le risque de défaut ?
+    
     - Quels types de prêts sont les plus risqués ?
+    
     - Quels profils clients présentent un risque élevé ?
 
 ⚙️ Technologies utilisées: Microsoft Fabric, Lakehouse, Data Warehouse, Dataflows Gen2, SQL, Python, Power BI
@@ -12,9 +15,13 @@ Le dataset contient 33 000 prêts provenant du Royaume-Uni, du Canada et des Ét
 🏗️ Architecture de données
 
 Le projet suit une architecture de type Medallion :
+
     - Bronze (Ingestion): Collecte et stockage des données brutes dans le Lakehouse
+    
     - Silver (Transformation): Nettoyage et transformation des données avec Dataflows Gen2
+    
     - Gold (Serving): Modélisation dans le Data Warehouse (schéma en étoile)
+    
     - Visualisation: Dashboard interactif dans Power BI
 
 📊 Principaux insights
