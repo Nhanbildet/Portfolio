@@ -12,11 +12,9 @@ L’analyse se concentre sur trois marchés :
 
 Le dataset contient environ **26 000 annonces Airbnb**.
 
----
-
 ## Architecture des données
 
-Un **pipeline de données end-to-end** a été mis en place dans **Microsoft Fabric** selon une architecture **Medallion (Bronze, Silver, Gold)**.
+Un pipeline de données end-to-end a été mis en place dans **Microsoft Fabric selon une architecture **Medallion (Bronze, Silver, Gold).
 
 Flux de données :
 
@@ -26,9 +24,6 @@ Airbnb Dataset
 → Dataflows Gen2 (préparation et nettoyage)
 → Modèle en **Star Schema** (Gold – modèle analytique)
 → **Power BI** (visualisation et analyse)
-
----
-
 ## Analyses réalisées
 
 Les dashboards permettent d’analyser :
@@ -38,11 +33,7 @@ Les dashboards permettent d’analyser :
 * les prix moyens et les taux d’occupation
 * la concurrence par ville et quartier
 * les indicateurs de rentabilité pour l’investissement
-
----
-
 ## Technologies utilisées
-
 * Microsoft Fabric
 * Lakehouse
 * PySpark
