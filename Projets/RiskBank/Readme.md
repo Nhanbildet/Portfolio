@@ -1,4 +1,4 @@
-📊 ##Analyse du risque de crédit – Microsoft Fabric
+📊 Analyse du risque de crédit – Microsoft Fabric
 
 📌 Ce projet a pour objectif d’analyser le risque de défaut afin d’identifier les profils clients à risque et d’améliorer la prise de décision dans l’octroi de crédit.
 Le dataset contient 33 000 prêts provenant du Royaume-Uni, du Canada et des États-Unis, avec des montants allant jusqu’à 35 000 USD.
