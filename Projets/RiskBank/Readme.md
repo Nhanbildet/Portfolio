@@ -25,20 +25,33 @@ Le projet suit une architecture de type Medallion :
     - Visualisation: Dashboard interactif dans Power BI
 
 📊 Principaux insights
+
     - Le pays n’est pas un facteur déterminant du risque
+    
     - Les prêts Conso dettes et Médical sont les plus risqués
+    
     - Les clients avec des grades D à G présentent un risque élevé
-    - Le risque augmente lorsque :
+    
+ Le risque augmente lorsque :
+    
     - Taux d’intérêt > 11%
+    
     - Montant du prêt < 8K
+    
     - Ratio dette/revenu > 33%
+    
     - Revenu < 55K
+    
 👉 Le risque est encore plus élevé lorsque ces facteurs sont combinés
 
 📈 Dashboard: Le dashboard Power BI permet :
+
     - Une vue globale des KPI (taux de défaut, volume de prêts, taux moyen)
+    
     - Une segmentation du risque par type de prêt et classe de crédit
+    
     - Une analyse des facteurs (revenu, ratio d’endettement)
+    
     - Une interaction via des filtres (pays, type de prêt, classe)
 
 👩‍💻 Auteur
